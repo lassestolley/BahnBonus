@@ -45,6 +45,8 @@
 		EC2D70BE28B6AC3100B011B5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EC2D70C228B6B0A400B011B5 /* BahnBonus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahnBonus.swift; sourceTree = "<group>"; };
 		EC2D70C428B6B38800B011B5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EC8AD3C229CB8EE600E7BE61 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EC8AD3C329CB8EF700E7BE61 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		ECFD8F1328D6078100C9B78E /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		ECFD8F1628D60F5F00C9B78E /* DBScreenHead-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenHead-Light.ttf"; sourceTree = "<group>"; };
 		ECFD8F1728D60F5F00C9B78E /* DBScreenHead-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenHead-Black.ttf"; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		EC2D709E28B695C200B011B5 = {
 			isa = PBXGroup;
 			children = (
+				EC8AD3C329CB8EF700E7BE61 /* .gitignore */,
+				EC8AD3C229CB8EE600E7BE61 /* README.md */,
 				EC2D70A928B695C200B011B5 /* BahnBonus */,
 				EC2D70A828B695C200B011B5 /* Products */,
 			);
