@@ -8,17 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		EC2D70AB28B695C200B011B5 /* BahnBonusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70AA28B695C200B011B5 /* BahnBonusApp.swift */; };
-		EC2D70AD28B695C200B011B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70AC28B695C200B011B5 /* ContentView.swift */; };
+		EC2D70AD28B695C200B011B5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70AC28B695C200B011B5 /* Home.swift */; };
 		EC2D70AF28B695C300B011B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D70AE28B695C300B011B5 /* Assets.xcassets */; };
 		EC2D70B228B695C300B011B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D70B128B695C300B011B5 /* Preview Assets.xcassets */; };
+		EC2D70B928B6984300B011B5 /* Advantages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70B828B6984300B011B5 /* Advantages.swift */; };
+		EC2D70BB28B6988300B011B5 /* Bonuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70BA28B6988300B011B5 /* Bonuses.swift */; };
+		EC2D70BD28B698A700B011B5 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70BC28B698A700B011B5 /* Info.swift */; };
+		EC2D70BF28B6AC3100B011B5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70BE28B6AC3100B011B5 /* Card.swift */; };
+		EC2D70C328B6B0A400B011B5 /* BahnBonus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70C228B6B0A400B011B5 /* BahnBonus.swift */; };
+		EC2D70C528B6B38800B011B5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D70C428B6B38800B011B5 /* Colors.swift */; };
+		ECFD8F1428D6078100C9B78E /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8F1328D6078100C9B78E /* CardData.swift */; };
+		ECFD8F1F28D60F5F00C9B78E /* DBScreenHead-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1628D60F5F00C9B78E /* DBScreenHead-Light.ttf */; };
+		ECFD8F2028D60F5F00C9B78E /* DBScreenHead-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1728D60F5F00C9B78E /* DBScreenHead-Black.ttf */; };
+		ECFD8F2128D60F5F00C9B78E /* DBScreenHead-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1828D60F5F00C9B78E /* DBScreenHead-Regular.ttf */; };
+		ECFD8F2228D60F5F00C9B78E /* DBScreenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1A28D60F5F00C9B78E /* DBScreenSans-Medium.ttf */; };
+		ECFD8F2328D60F5F00C9B78E /* DBScreenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1B28D60F5F00C9B78E /* DBScreenSans-Regular.ttf */; };
+		ECFD8F2428D60F5F00C9B78E /* DBScreenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1C28D60F5F00C9B78E /* DBScreenSans-SemiBold.ttf */; };
+		ECFD8F2528D60F5F00C9B78E /* DBScreenSans-DigitalRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1D28D60F5F00C9B78E /* DBScreenSans-DigitalRegular.ttf */; };
+		ECFD8F2628D60F5F00C9B78E /* DBScreenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F1E28D60F5F00C9B78E /* DBScreenSans-Bold.ttf */; };
+		ECFD8F2D28D62D6500C9B78E /* DBScreenNews-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F2B28D62D6500C9B78E /* DBScreenNews-Regular.ttf */; };
+		ECFD8F2E28D62D6500C9B78E /* DBScreenNews-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFD8F2C28D62D6500C9B78E /* DBScreenNews-Bold.ttf */; };
+		ECFD8F3028D6321E00C9B78E /* PremiumLounge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8F2F28D6321E00C9B78E /* PremiumLounge.swift */; };
+		ECFD8F3228D640C800C9B78E /* PremiumLoungeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8F3128D640C800C9B78E /* PremiumLoungeDetails.swift */; };
+		ECFD8F3428D640E400C9B78E /* PremiumLoungeConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD8F3328D640E400C9B78E /* PremiumLoungeConditions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC2D70A728B695C200B011B5 /* BahnBonus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahnBonus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2D70AA28B695C200B011B5 /* BahnBonusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahnBonusApp.swift; sourceTree = "<group>"; };
-		EC2D70AC28B695C200B011B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC2D70AC28B695C200B011B5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		EC2D70AE28B695C300B011B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2D70B128B695C300B011B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC2D70B828B6984300B011B5 /* Advantages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advantages.swift; sourceTree = "<group>"; };
+		EC2D70BA28B6988300B011B5 /* Bonuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonuses.swift; sourceTree = "<group>"; };
+		EC2D70BC28B698A700B011B5 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		EC2D70BE28B6AC3100B011B5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EC2D70C228B6B0A400B011B5 /* BahnBonus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahnBonus.swift; sourceTree = "<group>"; };
+		EC2D70C428B6B38800B011B5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		ECFD8F1328D6078100C9B78E /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		ECFD8F1628D60F5F00C9B78E /* DBScreenHead-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenHead-Light.ttf"; sourceTree = "<group>"; };
+		ECFD8F1728D60F5F00C9B78E /* DBScreenHead-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenHead-Black.ttf"; sourceTree = "<group>"; };
+		ECFD8F1828D60F5F00C9B78E /* DBScreenHead-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenHead-Regular.ttf"; sourceTree = "<group>"; };
+		ECFD8F1A28D60F5F00C9B78E /* DBScreenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenSans-Medium.ttf"; sourceTree = "<group>"; };
+		ECFD8F1B28D60F5F00C9B78E /* DBScreenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenSans-Regular.ttf"; sourceTree = "<group>"; };
+		ECFD8F1C28D60F5F00C9B78E /* DBScreenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		ECFD8F1D28D60F5F00C9B78E /* DBScreenSans-DigitalRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenSans-DigitalRegular.ttf"; sourceTree = "<group>"; };
+		ECFD8F1E28D60F5F00C9B78E /* DBScreenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenSans-Bold.ttf"; sourceTree = "<group>"; };
+		ECFD8F2928D60FEA00C9B78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ECFD8F2B28D62D6500C9B78E /* DBScreenNews-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenNews-Regular.ttf"; sourceTree = "<group>"; };
+		ECFD8F2C28D62D6500C9B78E /* DBScreenNews-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DBScreenNews-Bold.ttf"; sourceTree = "<group>"; };
+		ECFD8F2F28D6321E00C9B78E /* PremiumLounge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumLounge.swift; sourceTree = "<group>"; };
+		ECFD8F3128D640C800C9B78E /* PremiumLoungeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumLoungeDetails.swift; sourceTree = "<group>"; };
+		ECFD8F3328D640E400C9B78E /* PremiumLoungeConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumLoungeConditions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +92,17 @@
 		EC2D70A928B695C200B011B5 /* BahnBonus */ = {
 			isa = PBXGroup;
 			children = (
-				EC2D70AA28B695C200B011B5 /* BahnBonusApp.swift */,
-				EC2D70AC28B695C200B011B5 /* ContentView.swift */,
+				EC8AD3C029CB8CD900E7BE61 /* Main */,
+				EC2D70AC28B695C200B011B5 /* Home.swift */,
+				EC2D70B828B6984300B011B5 /* Advantages.swift */,
+				EC2D70C028B6B05900B011B5 /* BahnBonus */,
+				EC2D70BA28B6988300B011B5 /* Bonuses.swift */,
+				EC2D70BC28B698A700B011B5 /* Info.swift */,
+				EC8AD3C129CB8D1300E7BE61 /* Helper */,
+				ECFD8F1528D60F5F00C9B78E /* DB Screen Head */,
+				ECFD8F1928D60F5F00C9B78E /* DB Screen Sans */,
+				ECFD8F2A28D62D6500C9B78E /* DB Screen News */,
+				ECFD8F2928D60FEA00C9B78E /* Info.plist */,
 				EC2D70AE28B695C300B011B5 /* Assets.xcassets */,
 				EC2D70B028B695C300B011B5 /* Preview Content */,
 			);
@@ -65,6 +115,66 @@
 				EC2D70B128B695C300B011B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC2D70C028B6B05900B011B5 /* BahnBonus */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8F1328D6078100C9B78E /* CardData.swift */,
+				EC2D70C228B6B0A400B011B5 /* BahnBonus.swift */,
+				EC2D70BE28B6AC3100B011B5 /* Card.swift */,
+				ECFD8F2F28D6321E00C9B78E /* PremiumLounge.swift */,
+				ECFD8F3128D640C800C9B78E /* PremiumLoungeDetails.swift */,
+				ECFD8F3328D640E400C9B78E /* PremiumLoungeConditions.swift */,
+			);
+			path = BahnBonus;
+			sourceTree = "<group>";
+		};
+		EC8AD3C029CB8CD900E7BE61 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D70AA28B695C200B011B5 /* BahnBonusApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EC8AD3C129CB8D1300E7BE61 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D70C428B6B38800B011B5 /* Colors.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ECFD8F1528D60F5F00C9B78E /* DB Screen Head */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8F1628D60F5F00C9B78E /* DBScreenHead-Light.ttf */,
+				ECFD8F1728D60F5F00C9B78E /* DBScreenHead-Black.ttf */,
+				ECFD8F1828D60F5F00C9B78E /* DBScreenHead-Regular.ttf */,
+			);
+			path = "DB Screen Head";
+			sourceTree = "<group>";
+		};
+		ECFD8F1928D60F5F00C9B78E /* DB Screen Sans */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8F1A28D60F5F00C9B78E /* DBScreenSans-Medium.ttf */,
+				ECFD8F1B28D60F5F00C9B78E /* DBScreenSans-Regular.ttf */,
+				ECFD8F1C28D60F5F00C9B78E /* DBScreenSans-SemiBold.ttf */,
+				ECFD8F1D28D60F5F00C9B78E /* DBScreenSans-DigitalRegular.ttf */,
+				ECFD8F1E28D60F5F00C9B78E /* DBScreenSans-Bold.ttf */,
+			);
+			path = "DB Screen Sans";
+			sourceTree = "<group>";
+		};
+		ECFD8F2A28D62D6500C9B78E /* DB Screen News */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD8F2B28D62D6500C9B78E /* DBScreenNews-Regular.ttf */,
+				ECFD8F2C28D62D6500C9B78E /* DBScreenNews-Bold.ttf */,
+			);
+			path = "DB Screen News";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +235,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFD8F2228D60F5F00C9B78E /* DBScreenSans-Medium.ttf in Resources */,
+				ECFD8F2128D60F5F00C9B78E /* DBScreenHead-Regular.ttf in Resources */,
+				ECFD8F2E28D62D6500C9B78E /* DBScreenNews-Bold.ttf in Resources */,
+				ECFD8F2328D60F5F00C9B78E /* DBScreenSans-Regular.ttf in Resources */,
+				ECFD8F2028D60F5F00C9B78E /* DBScreenHead-Black.ttf in Resources */,
+				ECFD8F2628D60F5F00C9B78E /* DBScreenSans-Bold.ttf in Resources */,
+				ECFD8F2428D60F5F00C9B78E /* DBScreenSans-SemiBold.ttf in Resources */,
+				ECFD8F2D28D62D6500C9B78E /* DBScreenNews-Regular.ttf in Resources */,
+				ECFD8F2528D60F5F00C9B78E /* DBScreenSans-DigitalRegular.ttf in Resources */,
 				EC2D70B228B695C300B011B5 /* Preview Assets.xcassets in Resources */,
+				ECFD8F1F28D60F5F00C9B78E /* DBScreenHead-Light.ttf in Resources */,
 				EC2D70AF28B695C300B011B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +257,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2D70AD28B695C200B011B5 /* ContentView.swift in Sources */,
+				EC2D70B928B6984300B011B5 /* Advantages.swift in Sources */,
+				EC2D70C528B6B38800B011B5 /* Colors.swift in Sources */,
+				EC2D70BF28B6AC3100B011B5 /* Card.swift in Sources */,
+				ECFD8F3028D6321E00C9B78E /* PremiumLounge.swift in Sources */,
+				EC2D70C328B6B0A400B011B5 /* BahnBonus.swift in Sources */,
+				EC2D70AD28B695C200B011B5 /* Home.swift in Sources */,
+				ECFD8F3428D640E400C9B78E /* PremiumLoungeConditions.swift in Sources */,
 				EC2D70AB28B695C200B011B5 /* BahnBonusApp.swift in Sources */,
+				ECFD8F3228D640C800C9B78E /* PremiumLoungeDetails.swift in Sources */,
+				ECFD8F1428D6078100C9B78E /* CardData.swift in Sources */,
+				EC2D70BD28B698A700B011B5 /* Info.swift in Sources */,
+				EC2D70BB28B6988300B011B5 /* Bonuses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +400,15 @@
 				DEVELOPMENT_TEAM = WHSJ3B8VWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BahnBonus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BahnBonus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +416,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lassestolley.BahnBonus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +436,15 @@
 				DEVELOPMENT_TEAM = WHSJ3B8VWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BahnBonus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BahnBonus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +452,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lassestolley.BahnBonus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
